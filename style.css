@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    display: grid;
+    gap: 40px;
+    justify-items: center;
+    background-color: #313751;
+  }
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;    
+}
+
+a:hover {
+    color: #1A73B5;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.img01 {
+    width: 400px;
+}
+
+h2, p {
+    color:#ffffff;
+}
+
+h1 {
+    margin: 20px 0px 0px 0px;
+}
+
+.container-01 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.conteudo-01{
+    margin-left: 20px;
+    display: grid;
+    align-content: center;
+    justify-items: start;
+}
+
+.botao-saiba {
+    background-color: #1A73B5;
+    text-transform: uppercase;
+    border: 1px solid #1A73B5;
+    border-radius: 10px; 
+    color: #ffffff;
+    width: 150px;
+    height: 30px;    
+}
+
+.botao-saiba:hover {
+    background-color: #488abc;
+}
+
+.container-02 {
+    max-width: 1000px;
+    margin: 40px 0px;
+    background-color: #488abc;
+    border-radius: 20px 0px;
+    padding: 10px 20px;
+}
+
+.container-02 h2, .container-02 p {
+    color: #0f3553;
+}
+
+.container-03 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.conteudo-03{
+    display: grid;
+    align-content: center;
+    justify-items: start;
+}
+
+footer p {
+    color: #ffffff;
+}
